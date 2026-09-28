@@ -3,9 +3,11 @@ package guided;
 public class MainManusia {
     public static void main(String[] args) {
         Manusia[] manusia = new Manusia[4];
+
         for (int i = 0; i < manusia.length; i++) {
             manusia[i] = new Manusia();
         }
+
         manusia[0].setInfo("Hermawan", 180);
         manusia[1].setInfo("Suciati", 160);
         manusia[2].setInfo("Boy", 170);
